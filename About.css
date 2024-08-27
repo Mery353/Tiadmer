@@ -386,7 +386,7 @@ body {
 
     .menu_bar {
         height: 70px;
-        width: 70%;
+        width: 85%;
     } 
 
 
@@ -432,7 +432,6 @@ body {
     justify-content: unset;
     width: 67%;
     backdrop-filter: unset;
-      margin-left: -100px
     } 
 
     .menu {
@@ -484,7 +483,7 @@ body {
         position: fixed;
         align-items: unset;
     justify-content: unset;
-    width: 75%;
+    width: 85%;
     backdrop-filter: unset;
     } 
 
@@ -643,7 +642,7 @@ body {
         width: 70%;
         height: auto;
         margin: auto;
-      top: 80%;
+      top: 70%;
         left: 18%;
     } 
 }
