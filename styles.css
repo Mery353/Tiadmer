@@ -499,6 +499,7 @@ body {
     justify-content: unset;
     width: 67%;
     backdrop-filter: unset;
+      margin-left: -80px
     } 
 
     .menu {
