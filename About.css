@@ -631,7 +631,7 @@ body {
     } 
 
     .s1-content h1 {
-        font-size: 50px;
+        font-size: 35px;
     } 
     
     .s1-content p {
@@ -640,10 +640,11 @@ body {
 
     
     .s1-vid-div video {
-        width: 50%;
+        width: 70%;
         height: auto;
         margin: auto;
       top: 80%;
+        left: 18%;
     } 
 }
 
@@ -818,11 +819,12 @@ body {
 @media screen and (max-width: 600px) {
 
     .section-2 h1 {
-        font-size: 50px;
+        font-size: 35px;
         margin: auto;
       left: unset;
       width: 90%;
       text-align: center;
+        margin-bottom: 15px;
     } 
     
     .section-2 p {
