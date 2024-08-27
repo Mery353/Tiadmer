@@ -791,6 +791,7 @@ body {
       right: 50%;
       width: 90%;
       text-align: center;
+        margin-bottom: 15px
     } 
     
     .section-2 p {
@@ -808,28 +809,31 @@ body {
         margin: auto;
       top: 80%;
        width: 70%;
-       right: 0;
+       right: 3%;
     } 
 
     .s2-img-div {
         top: 1150px;
+        right: 3%
     }
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
     .section-2 h1 {
         font-size: 35px;
         margin: auto;
+        right: unset;
       left: unset;
       width: 90%;
       text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     } 
     
     .section-2 p {
         font-size: 16px;
         margin: auto;
+        right: unset;
       left: unset;
       width: 90%;
       text-align: center;
@@ -837,12 +841,47 @@ body {
 
     
     .s2-img-div img {
-            width: 60%;
-            height: auto;
-            margin: auto;
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        hight: auto;
+        left: unset;
+            width: 70%;
             top: 80%;
-        right: 18%;
+        right: 12%;
     } 
+
+    .s2-img-div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        right: 12%;
+    }
+} 
+
+@media screen and (max-width: 450px) {
+
+    
+    .s2-img-div img {
+        display: block;
+        margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            left: unset;
+            top: 80%;
+            width: 70%;
+            right: 20%;
+       
+    } 
+
+    .s2-img-div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        right: 20%;
+    }
 }
 
 
@@ -982,11 +1021,12 @@ body {
     } 
 
     .section-3 h2 {
-        font-size: 50px;
+        font-size: 35px;
         margin: auto;
       right: 50%;
       width: 90%;
       text-align: center;
+        margin-bottom: 20px
     } 
     
     .section-3 p {
@@ -1016,11 +1056,12 @@ body {
 @media screen and (max-width: 600px) {
 
     .section-3 h2 {
-        font-size: 50px;
+        font-size: 35px;
         margin: auto;
       left: unset;
       width: 90%;
       text-align: center;
+        margin-bottom: 20px;
     } 
     
     .section-3 p {
@@ -1029,6 +1070,7 @@ body {
       left: unset;
       width: 90%;
       text-align: center;
+        margin-bottom: 10px;
     } 
 
     
@@ -1177,7 +1219,7 @@ body {
 
 @media screen and (max-width: 980px) {
     .section-5 {
-        top: -450px;
+        top: -350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1223,7 +1265,7 @@ body {
     } 
 
     .copyright {
-        margin-top: 2900px;
+        margin-top: 3030px;
     }
 } 
 
