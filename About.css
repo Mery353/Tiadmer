@@ -1086,6 +1086,7 @@ body {
                                                              /* Section 4  */ 
 
 .section-5 {
+    width: 100%;
     position: absolute;
     background: linear-gradient(400deg, #391e10, #734128, #c7a07a);
     margin-top: 2100px;
@@ -1097,7 +1098,6 @@ body {
     font-size: 15px;
     display: flex;
     flex-direction: row;
-    width: 100%;
 } 
 
 .info img {
@@ -1218,6 +1218,7 @@ body {
 
 @media screen and (max-width: 980px) {
     .section-5 {
+        width: 100%;
         top: -350px;
         display: flex;
         flex-direction: column;
