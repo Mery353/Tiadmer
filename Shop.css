@@ -417,13 +417,13 @@ body {
 
 
     .menu_bar {
-        left: -10%
-        height: 50%;
+        left: -10%;
+        height: 70px;
         display: unset;
         position: fixed;
         align-items: unset;
     justify-content: unset;
-    width: 75%;
+    width: 65%;
     backdrop-filter: unset;
     } 
 
